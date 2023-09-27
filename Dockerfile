@@ -1,4 +1,4 @@
-FROM docker pull mcr.microsoft.com/dotnet/sdk
+FROM pull mcr.microsoft.com/dotnet/sdk
 WORKDIR /App
 # Copy everything
 COPY . .
