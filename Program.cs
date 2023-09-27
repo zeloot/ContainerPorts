@@ -23,4 +23,17 @@ else
 }
 
 
-Console.ReadLine();
+Console.WriteLine("[Manual]\nq: Quit");
+while (true)
+{
+    var line = Console.ReadLine();
+
+    if(line != "q")
+    {
+        Console.WriteLine("Invalid input.\nq: Quit");
+    }
+    else
+    {
+        break;
+    }
+}
